@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<body>
+<header class="header">
+  <div class="container">
+    <div class="logo">
+    </div>
+    <nav class="menu">
+        <a href="inicio.html" class="btn-2">Inicio</a>
+        <a href="menu.html" class="btn-2">Menu</a>
+      <a href="contactos.html" class="btn-2">Contactos</a>
+      
+    
+    
+    </nav>
+  </div>
+</header>
+
+
+
+
+
+<a href="carrito de compras.html"><input type="button" value="ir a Carrito de Compras🛒"></a>
+
+<a href="carrito de compras.html" class="btn-2">Carrito de Compras🛒</a>
+    
+   
+   
+
+
+
+</html>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <header>
+
+        <div class="menu container">
+        
+            
+
+            <nav class="navbar">
+
+                <div class="menu-1">
+                
+
+                </div>
+
+
+                <div class="menu-2">
+                    <a href="#">
+                       
+                </div>
+
+            </nav>
+        </div>
+        <div class="header-content container">
+               <div id="cart"></div>
+               <a href="carrito de compras.html" class="btn-2">Carrito de Compras🛒</a>
+            <br>
+            <br>
+            <br>
+
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+
+                   
+
+                    <div class="swiper-slide">
+                        <div class="slider">
+                        
+                            <div class="slider-txt">
+                                <h1>HAMBURGUESA</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aut, quia ut rerum
+                                    saepe veniam suscipit!
+                                </p>
+                                <br>
+                                <br>
+
+                            <div>
+                                <button onclick="addToCart('Hamburguesa(Torta)', 50)">Comprar</button>
+                             
+                             
+                            </div>
+                        
+
+                            <div class="slider-img">
+                                <img src="https://chefeel.com/chefgeneralfiles/2023/06/hamburguesa-parrilla-papas-fritas-comida-clasica-generada-ia-880x759.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-pagination"></div>
+
+                   
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slaider-txt">
+                                <h1>Torta</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aut, quia ut rerum
+                                    saepe veniam suscipit!
+                                </p>
+                                
+                            <div>
+                                <button onclick="addToCart('Hamburguesa(Torta)', 50)">Comprar</button>
+                               
+                            </div>
+                                
+                                    
+                               
+                            </div>
+                            <div class="slider-img">
+                                <img src="https://th.bing.com/th/id/R.5a7ef0bfbf4e2889ccbef9f4eb0b445f?rik=P2Ik1CqOkzTAEw&pid=ImgRaw&r=0" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+    </header>
+
+
+ <main class="products">
+    <div class="tabs container">
+
+        <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1"> 
+        <label for="tab1">Hamburguesa</label>
+        <div class="tab">
+        <div class="swiper mySwiper-2" id="swiper1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product-img">
+                        <h4>Nuevo</h4>
+                        <img src="https://th.bing.com/th/id/OIP.veUjN_-ckqbB5QEll-aTuQHaEK?rs=1&pid=ImgDetMain" alt="">
+                        <p>Precio: 50.000$</p>
+                        <button onclick="addToCart('Hamburguesa(Torta)', 50.000)">Comprar</button>
+                        <div class="product">
+                            <div class="product-txt">
+                                <H4>Producto</H4>
+                                <p>Calidad Premium</p>
+                                <span class="prince">50.000$</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>  
+
+    </div>
+
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2">Burritos</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="https://th.bing.com/th/id/R.7656215bc8dff9b037a8d6f01b69dc47?rik=FQ0d4T%2fLt6ydFA&pid=ImgRaw&r=0"alt="">
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-pagination"></div>
+                                <h4>Producto</h4>
+                                <div>                               
+                                    <p>Precio: $20</p>
+                                    <button onclick="addToCart('Burritos(Tacos)', 20)">Comprar</button>
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>calidad premium</p>
+                                    <span class="prince">20.000</span>
+                                </div>
+                            </div>
+                        </div>
+                      
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for="tab3">Variedad</label>
+            <div class="tab">
+                <div class="swiper mySwiper-3" id="swiper3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="https://img.hmz.com/allimg/180601/8-1P6011UH4295.png" alt="">
+                                </div>
+                                <div class="swiper-button-next"></div> 
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-pagination"></div>
+                                <div class="product-txt">
+                                    <p>calidad premium</p>
+                                    <span class="prince">80.00</span>
+                                </div>
+                            </div>
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <section class="info container">
+        <div class="info-img">
+            <img src="https://th.bing.com/th/id/R.669910c39481e1e1904ca8d2a6dc8833?rik=rAebaBqheBNq5g&pid=ImgRaw&r=0" alt="">
+
+        </div>
+
+
+        <div class="info-txt">
+            <h2>informacion</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas reprehenderit necessitatibus debitis et
+                tempore quidem, excepturi fugit amet qui sequi quaerat placeat! 
+            </p>
+            <a href="mas informacion.html" class="btn-2">mas informacion</a>
+           
+            
+            
+
+        </div>   
+
+    </section>
+
+    <section class="horario">
+        <div class="horario-info container">
+            
+            <h2>Horario</h2>
+            <div class="horario-text">
+                <div class="text">
+                    <h4>Direccion</h4>
+                    <p>
+                        excepturi fugit amet qui sequi quaerat placeat! 
+                    </p>
+                    <p>
+                        Quas reprehenderit necessitatibus debitis et
+                tempore quidem,
+                    </p>
+                </div>
+                <div class="text">
+                    <h4>Horario</h4>
+                    <p>
+                        Lunes a Viernes : 8 am - 7 pm 
+                    </p>
+                    <p>
+                        Sabados a Domingos : 10 am - 9 pm
+                    </p>
+                </div>
+
+                 
+                <div class="text">
+                    <h4>Telefono</h4>
+                    <p>
+                        5378835477
+                    </p>
+                    <p>
+                        5378835477
+                    </p>
+                </div>
+                <div class="text">
+                    <h4>Redes Sociales</h4>
+                    <div class="socials">
+                        <a href="#">
+                            <div class="sociimages/s3.svgal">
+                                <img src="" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="OIP(2).png" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="OIP(3).png" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social" alt="">
+                                <img src="OIP(4).png" alt="">
+                            </div>
+                            <br><br>
+                            <br><br>
+                        </a>
+                        
+                    </div>
+
+
+                    <a href="formulario de inscripcion.html" class="btn-2">formulario de inscripcion</a>
+                    <br>
+                  
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15793.081571740035!2d-76.39002872867108!3d8.275864102554053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5a7e6ea0350c35%3A0x37edf47d89550943!2sSan%20Pedro%20de%20Urab%C3%A1%2C%20Antioquia!5e0!3m2!1sen!2sco!4v1741190756772!5m2!1sen!2sco" width="100%" height="500%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+    </section>
+
+    <footer class="footer container">
+
+        <img class="logo-2" src="https://static.vecteezy.com/system/resources/previews/002/919/110/original/burger-logo-design-vector.jpg" alt="">
+        <div class="links">
+            <h4>lorem</h4>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>lorem</h4>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>lorem</h4>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>lorem</h4>
+            <div class="socials">
+                <a href="#">
+                    <div class="social">
+                        <br>
+                        <img src="OIP(2).png" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <img src="OIP(3).png" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <img src="OIP(4).png" alt="">
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+        <br>
+        <img src="qrcode_chrome.png" alt="">
+
+    </footer>
+
+
+  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-blunde.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
